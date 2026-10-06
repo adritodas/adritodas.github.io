@@ -170,7 +170,7 @@
 
         <h1>Hi, I'm Adrito.</h1>
         <div class="intro-text">
-            I'm an incoming <strong>Math & Computer Science</strong> major at <strong>NYU</strong> (Shanghai). I spend my time researching machine learning, specifically focusing on deep learning for medical imaging, self-supervised learning, and spatiotemporal architectures. 
+            I build spatiotemporal machine learning architectures optimized for complex, high-dimensional data. Currently based in Shanghai, leveraging proximity to the world's largest logistics networks to bridge deep learning models with macro systems engineering.
             <br><br>
             Feel free to reach out at <a href="mailto:ad8778@nyu.edu">ad8778@nyu.edu</a> or check out my code on <a href="https://github.com/ad8778-thegoat" target="_blank">GitHub</a>.
         </div>
@@ -178,48 +178,47 @@
 
     <main>
         <section>
+            <h2>Awards & Recognition</h2>
+            <ul class="custom-list">
+                <li><strong>Top 8 in the Nation</strong> (out of 11,000 students) at the National Economics Challenge <a href="https://www.councilforeconed.org/wp-content/uploads/NEC-2025-program-v4.pdf#page=7" target="_blank">(View Program - pg. 7)</a>.</li>
+                <li>
+                    <strong>NASA International Space Apps Challenge:</strong> "Galactic Problem Solver" Award for efforts addressing challenges on Earth and in space, dated October 5–6, 2024.
+                </li>
+            </ul>
+        </section>
+
+        <section>
             <h2>Machine Learning Research</h2>
 
             <div class="project">
                 <span class="project-meta">medRxiv Preprint • ML Engineer & Co-Author</span>
                 <h3>Automated Coronary Artery Disease Detection</h3>
                 <p>
-                    I helped develop an automated CAD detection model using a CNN with a temporal attention mechanism. My specific focus was building the 2D spatial feature extraction pipeline using ResNet18 and writing the PyTorch optimization loops. By automatically extracting features from sequential coronary angiograms, we were able to significantly improve detection accuracy and speed compared to traditional models.
+                    Engineered the spatial data pipeline and raw ingestion framework for a temporal attention CNN. Personally wrote the PyTorch optimization loops (BCE Loss, Adam Optimizer) to transform raw DICOM streams into training arrays. Core sequential LSTM module kept proprietary by research partners; open-source repository isolates my data pipeline architecture.
                 </p>
                 <div class="links">
                     <a href="https://doi.org/10.64898/2026.02.11.26346085" target="_blank">Read the Paper</a> &nbsp;|&nbsp; 
                     <a href="https://github.com/ad8778-thegoat/CAD-Temporal-Attention-CNN" target="_blank">View Repository</a>
                 </div>
-                <div class="tech-stack">
-                    <span>PyTorch</span>
-                    <span>ResNet18</span>
-                    <span>CNNs</span>
-                    <span>Data Engineering</span>
-                </div>
             </div>
 
             <div class="project">
-                <span class="project-meta">In Preparation (NeurIPS ML4H) • Sole Author</span>
+                <span class="project-meta">Shipped directly to arXiv • Sole Author</span>
                 <h3>Few-Shot Cardiac Sequence Analysis</h3>
                 <p>
-                    Currently developing a 3D Spatiotemporal Masked Autoencoder (MAE). The goal here is to solve a major issue in low-resource medical settings: overfitting. By using self-supervised reconstruction on cardiac MRIs, the model learns to understand the data without needing massive labeled datasets.
+                    Built a 3D Spatiotemporal Masked Autoencoder (MAE) from scratch to demonstrate architectural overfitting in low-resource settings. Developed self-supervised volumetric reconstruction loops to prove that high-capacity neural architectures yield 100% data saturation errors on sparse cardiac matrices when baseline regularizations are ignored. Shipped open-source code and manuscript directly to arXiv.
                 </p>
-                <div class="tech-stack">
-                    <span>PyTorch</span>
-                    <span>Self-Supervised Learning</span>
-                    <span>3D Convolutions</span>
-                </div>
             </div>
         </section>
 
         <section>
-            <h2>Clinical Data & Economics</h2>
+            <h2>Systems & Macro Architecture</h2>
 
             <div class="project">
                 <span class="project-meta">Published in AJMC • Harvard/MIT Collaboration</span>
                 <h3>GLP-1 Market Expansion & Efficacy</h3>
                 <p>
-                    Working alongside a Harvard undergrad, I synthesized clinical data from over 28 randomized controlled trials (28,000+ patients) to compare the efficacy of semaglutide and tirzepatide (~11.4% mean weight loss). We also modeled the global market trajectory, forecasting growth to $63.54B by 2032, and tracked how adverse events from compounded alternatives drove 2025 FDA enforcement actions.
+                    Synthesized data across 28 randomized controlled trials (28,000+ patient cohorts). Modeled multi-year supply trajectory forecasts ($63.54B valuation by 2032) and analyzed systemic enforcement mechanisms balancing raw market demand with compounded drug alternatives.
                 </p>
             </div>
 
@@ -235,28 +234,9 @@
                 <span class="project-meta">Harvard University</span>
                 <h3>Economics Research Assistant</h3>
                 <p>
-                    Assisted Professor Jeffrey Miron with economic and policy research, contributing to high-level data analysis and dataset synthesis.
+                    Synthesized large-scale datasets for Professor Jeffrey Miron to model regulatory market constraints and policy outcomes.
                 </p>
             </div>
-        </section>
-
-        <section>
-            <h2>Tools & Technologies</h2>
-            <p>
-                <strong>Languages:</strong> Python, C++<br>
-                <strong>ML & Data:</strong> PyTorch, Scikit-Learn, Pandas, NumPy, OpenCV<br>
-                <strong>Workflow:</strong> Git/GitHub, Linux CLI
-            </p>
-        </section>
-
-        <section>
-            <h2>Awards & Recognition</h2>
-            <ul class="custom-list">
-                <li><strong>Top 8 in the Nation</strong> (out of 11,000 students) at the National Economics Challenge <a href="https://www.councilforeconed.org/wp-content/uploads/NEC-2025-program-v4.pdf#page=7" target="_blank">(View Program - pg. 7)</a>.</li>
-                <li>
-                    <strong>NASA International Space Apps Challenge:</strong> "Galactic Problem Solver" Award for efforts addressing challenges on Earth and in space, dated October 5–6, 2024.
-                </li>
-            </ul>
         </section>
     </main>
 
